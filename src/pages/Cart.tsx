@@ -145,8 +145,8 @@ export default function Cart() {
         </Card>
 
         {/* Checkout Button */}
-        <Button className="w-full bg-primary hover:bg-primary/90" size="lg">
-          Proceed to Checkout
+        <Button asChild className="w-full bg-primary hover:bg-primary/90" size="lg">
+          <a href="/checkout">Proceed to Checkout</a>
         </Button>
       </main>
     </div>
