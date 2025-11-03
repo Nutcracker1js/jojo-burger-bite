@@ -31,7 +31,7 @@ export default function Home() {
           <div className="flex items-center gap-3">
             <img src={logo} alt="Jojo's Burger" className="w-12 h-12" />
             <div>
-              <h1 className="font-bold text-xl">Jojo's Burger</h1>
+              <h1 className="font-satisfy font-bold text-2xl">Jojo's Burger</h1>
               <p className="text-xs text-muted-foreground">Bite Into Happiness</p>
             </div>
           </div>
